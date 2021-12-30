@@ -1,0 +1,206 @@
+---
+type: location
+id: entrance
+name: Entrance
+desc: You are in the entrance of the CAF.
+longdesc: |
+  You are in the entrance of the CAF.
+  Mrs. Mimi stands ready to swipe your card for you.
+exits:
+  east: sandwich
+---
+type: location
+id: sandwich
+name: Sandwich Line
+article: the
+desc: You are standing in the sandwich line.
+longdesc: |
+  You are standing in the sandwich line.
+  Mr. Wayne wait diligently to take your order for a custom sandwich,
+  or serve what is already prepared.
+items:
+  - name: burger
+    desc: |
+      A nice sized hamburger.
+  - name: fries
+      desc: |
+        A handful of french fries, straight out of the deep fryer.
+  - name: chicken
+      desc: |
+        A juicy chicken breast, fresh off of the grill.
+exits:
+  east: worlds
+  south: dairy
+---
+type: location
+id: worlds
+name: World's Fair
+article: the
+desc: You are standing in the World's Fair line.
+longdesc: |
+  You are standing in the World's Fair line.
+  You see Mrs. Janice smiling brightly, and waiting
+  to serve you today's special.
+
+items:
+  - name: today's special
+      desc: |
+        A plate filled to the brim with chicken tenders, macaroni, and brocoli.
+exits:
+  east: pizza
+---
+type: location
+id: pizza
+name: Pizza Line
+article: the
+desc: You are standing in the Pizza line.
+longdesc: |
+  You are standing in the Pizza line.
+  You see Eric the Pizza guy cooking another amazing specialty pizza.
+  You can't really tell what ingredients he put on it, you just know it is going to be good.
+items:
+  - name: pizza
+    desc: |
+      A hot slice of pizza.
+exits:
+  south: stirfry
+---
+type: location
+id: stirfry
+name: Stir Fry Station
+article: the
+desc: You are standing at the Stir Fry Station.
+longdesc: |
+  You are standing at the Stir Fry Station.
+  You see Mr. Juan ready to assist you with anything
+  you need.
+
+items:
+  - name: stir fry
+    desc: |
+      A steaming plate of stir fry with vegetables, rice, and chicken
+      all covered in an delicious tasting sauce.
+
+exits:
+  south: desserts
+---
+type: location
+id: desserts
+name: Dessert Line
+article: the
+desc: You are standing in the Dessert Line.
+longdesc: |
+  You are standing in the Dessert Line.
+  You see Mrs. Mariella baking some beautiful looking cupcakes.
+
+items:
+  - name: notebook
+    desc: |
+      It is a green spiral-bound notebook. It appears to
+      contain someone's physics notes, but there is no name on it.
+  - name: notebook
+      desc: |
+        It is a green spiral-bound notebook. It appears to
+        contain someone's physics notes, but there is no name on it.
+exits:
+  west: drinks2
+---
+type: location
+id: drinks2
+name: East Drinks
+article: the
+desc: You are standing at East drink Station.
+longdesc: |
+  You are standing at the East drink Station.
+  There are a wide variety of juices, sodas, and other
+  beverages for you to choose from.
+
+items:
+  - name: water
+      desc: |
+        A glass of crystal clear water.
+  - name: soda
+      desc: |
+        A refreshing glass of soda.
+        Some people would call this pop,
+        but those people are wrong.
+  - name: juice
+      desc: |
+        A tall glass of orange juice.
+        You never decide to get any other juice,
+        and you don't know why.
+  - name: coffee
+      desc: |
+        A hot cup of coffee with no creamer or sugar.
+        You'll need all the caffiene you can get
+        if you want to finish your homework.
+exits:
+  west: exit
+---
+type: location
+id: exit
+name: Exit
+article: the
+desc: You are standing at the exit.
+longdesc: |
+  You are standing at the exit leading into the dinning room.
+  You see a group of your best friends gathered at one of the tables
+  waiting for you to join them.
+exits:
+  west: drinks
+---
+type: location
+id: drinks
+name: West Drinks
+article: the
+desc: You are standing at the West Drink Station.
+longdesc: |
+  You are standing at the West drink Station.
+  There are a wide variety of juices, sodas, and other
+  beverages for you to choose from.
+
+items:
+  - name: water
+    desc: |
+      A glass of crystal clear water.
+  - name: soda
+      desc: |
+        A refreshing glass of soda.
+        Some people would call this pop,
+        but those people are wrong.
+  - name: juice
+      desc: |
+        A tall glass of orange juice.
+        You never decide to get any other juice,
+        and you don't know why.
+  - name: coffee
+      desc: |
+        A hot cup of coffee with no creamer or sugar.
+        You'll need all the caffiene you can get
+        if you want to finish your homework.
+exits:
+  north: dairy
+  east: exit
+---
+type: location
+id: dairy
+name: Dairy Line
+article: the
+desc: You are standing at the Dairy Line.
+longdesc: |
+  You are standing at the Dairy Line.
+  There are a three different milks and a varried selection of
+  cereals to choose from.
+
+items:
+  - name: milk
+    desc: |
+      A tall glass of 2% milk, the best kind of milk.
+      Unless you're lactose intolerant.
+  - name: cereal
+      desc: |
+        A bowl of cherrios.
+exits:
+  north: sandwich
+  south: drinks
+---
