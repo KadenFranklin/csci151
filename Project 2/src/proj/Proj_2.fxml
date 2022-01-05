@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proj.TicTacToeController">
+   <top>
+      <Label fx:id="label" BorderPane.alignment="CENTER" />
+   </top>
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane fx:id="pane_1" onMousePressed="#placeChar_1" prefHeight="200.0" prefWidth="200.0" />
+            <Separator prefWidth="200.0" />
+            <Pane fx:id="pane_4" onMousePressed="#placeChar_4" prefHeight="200.0" prefWidth="200.0" />
+            <Separator prefWidth="200.0" />
+            <Pane fx:id="pane_7" onMousePressed="#placeChar_7" prefHeight="200.0" prefWidth="200.0" />
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane fx:id="pane_2" onMousePressed="#placeChar_2" prefHeight="200.0" prefWidth="200.0" />
+            <Separator prefWidth="200.0" />
+            <Pane fx:id="pane_5" onMousePressed="#placeChar_5" prefHeight="200.0" prefWidth="200.0" />
+            <Separator prefWidth="200.0" />
+            <Pane fx:id="pane_8" onMousePressed="#placeChar_8" prefHeight="200.0" prefWidth="200.0" />
+         </children>
+      </VBox>
+   </center>
+   <right>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane fx:id="pane_3" onMousePressed="#placeChar_3" prefHeight="200.0" prefWidth="200.0" />
+            <Separator prefWidth="200.0" />
+            <Pane fx:id="pane_6" onMousePressed="#placeChar_6" prefHeight="200.0" prefWidth="200.0" />
+            <Separator prefWidth="200.0" />
+            <Pane fx:id="pane_9" onMousePressed="#placeChar_9" prefHeight="200.0" prefWidth="200.0" />
+         </children>
+      </VBox>
+   </right>
+</BorderPane>
