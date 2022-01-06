@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="covid.gui.covidController">
+   <bottom>
+      <Slider fx:id="slider" blockIncrement="1.0" majorTickUnit="7.0" max="294.0" min="1.0" minorTickCount="1" onDragDetected="#initialize" prefHeight="60.0" prefWidth="570.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" BorderPane.alignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Slider>
+   </bottom>
+   <top>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="map3" fitHeight="375.0" fitWidth="607.0" pickOnBounds="true" preserveRatio="true" />
+            <TextField fx:id="WA" alignment="CENTER" editable="false" layoutX="45.0" layoutY="21.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="OR" alignment="CENTER" editable="false" layoutX="30.0" layoutY="59.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="CA" alignment="CENTER" editable="false" layoutX="26.0" layoutY="176.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="AK" alignment="CENTER" editable="false" layoutX="45.0" layoutY="289.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="HI" alignment="CENTER" editable="false" layoutX="133.0" layoutY="317.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="ID" alignment="CENTER" editable="false" layoutX="85.0" layoutY="78.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="NV" alignment="CENTER" editable="false" layoutX="45.0" layoutY="116.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="AZ" alignment="CENTER" editable="false" layoutX="85.0" layoutY="201.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="UT" alignment="CENTER" editable="false" layoutX="103.0" layoutY="155.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="CO" alignment="CENTER" editable="false" layoutX="163.0" layoutY="137.0" prefHeight="20.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="NM" alignment="CENTER" editable="false" layoutX="162.0" layoutY="205.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="55.0" text="0" />
+            <TextField fx:id="WY" alignment="CENTER" editable="false" layoutX="147.0" layoutY="88.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="MT" alignment="CENTER" editable="false" layoutX="133.0" layoutY="41.0" prefHeight="18.0" prefWidth="70.0" text="0" />
+            <TextField fx:id="ND" alignment="CENTER" editable="false" layoutX="217.0" layoutY="40.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="SD" alignment="CENTER" editable="false" layoutX="214.0" layoutY="81.0" prefHeight="20.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="NE" alignment="CENTER" editable="false" layoutX="229.0" layoutY="124.0" prefHeight="20.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="KS" alignment="CENTER" editable="false" layoutX="229.0" layoutY="160.0" prefHeight="20.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="OK" alignment="CENTER" editable="false" layoutX="240.0" layoutY="201.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="TX" alignment="CENTER" editable="false" layoutX="215.0" layoutY="240.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="LA" alignment="CENTER" editable="false" layoutX="310.0" layoutY="264.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="AR" alignment="CENTER" editable="false" layoutX="300.0" layoutY="206.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="MO" alignment="CENTER" editable="false" layoutX="304.0" layoutY="156.0" prefHeight="20.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="IA" alignment="CENTER" editable="false" layoutX="287.0" layoutY="104.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="MN" alignment="CENTER" layoutX="280.0" layoutY="42.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="WI" alignment="CENTER" editable="false" layoutX="323.0" layoutY="69.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="IL" alignment="CENTER" editable="false" layoutX="330.0" layoutY="128.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="MS" alignment="CENTER" editable="false" layoutX="330.0" layoutY="240.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="AL" alignment="CENTER" editable="false" layoutX="368.0" layoutY="214.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="GA" alignment="CENTER" editable="false" layoutX="411.0" layoutY="240.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="FL" alignment="CENTER" editable="false" layoutX="439.0" layoutY="295.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="TN" alignment="CENTER" editable="false" layoutX="358.0" layoutY="197.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="KY" alignment="CENTER" editable="false" layoutX="368.0" layoutY="176.0" minHeight="-Infinity" prefHeight="17.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="IN" alignment="CENTER" editable="false" layoutX="370.0" layoutY="148.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="OH" alignment="CENTER" editable="false" layoutX="388.0" layoutY="117.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="MI" alignment="CENTER" editable="false" layoutX="378.0" layoutY="88.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="SC" alignment="CENTER" editable="false" layoutX="433.0" layoutY="213.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="NC" alignment="CENTER" editable="false" layoutX="441.0" layoutY="187.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="VA" alignment="CENTER" editable="false" layoutX="456.0" layoutY="165.0" minHeight="-Infinity" prefHeight="17.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="WV" alignment="CENTER" editable="false" layoutX="433.0" layoutY="147.0" minHeight="-Infinity" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="PA" alignment="CENTER" editable="false" layoutX="445.0" layoutY="116.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="NY" alignment="CENTER" editable="false" layoutX="456.0" layoutY="86.0" minHeight="-Infinity" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="ME" alignment="CENTER" editable="false" layoutX="514.0" layoutY="41.0" minHeight="-Infinity" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="VT" alignment="CENTER" editable="false" layoutX="452.0" layoutY="29.0" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="NH" alignment="CENTER" editable="false" layoutX="475.0" layoutY="14.0" minHeight="-Infinity" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="MA" alignment="CENTER" editable="false" layoutX="551.0" layoutY="79.0" minHeight="-Infinity" prefHeight="20.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="RI" alignment="CENTER" editable="false" layoutX="545.0" layoutY="103.0" minHeight="-Infinity" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="CT" alignment="CENTER" editable="false" layoutX="550.0" layoutY="125.0" minHeight="-Infinity" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="NJ" alignment="CENTER" editable="false" layoutX="531.0" layoutY="140.0" minHeight="-Infinity" prefHeight="18.0" prefWidth="60.0" text="0" />
+            <TextField fx:id="DE" alignment="CENTER" editable="false" layoutX="525.0" layoutY="163.0" minHeight="-Infinity" prefHeight="18.0" prefWidth="47.0" text="0" />
+            <TextField fx:id="MD" alignment="CENTER" editable="false" layoutX="514.0" layoutY="193.0" prefHeight="18.0" prefWidth="54.0" text="0" />
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
